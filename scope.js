@@ -1,4 +1,4 @@
-//scope 변수, 선언된 변수가 어느 위치에서 유효한가?
+//scope , 선언된 변수가 어느 위치에서 유효한가?
 
 function a(){
   var v_a= "a";
@@ -6,7 +6,7 @@ function a(){
   function b(){
     var v_b="b";
     console.log("b : ",typeof(v), typeof(v_a),typeof(v_b));
-    
+
   }
 
   b();
